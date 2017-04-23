@@ -1,0 +1,106 @@
+/*-----------------------------------------*
+ *--------------THE LIBRARY----------------*
+ *-----------------------------------------*/
+
+/*-----------GENERAL----------------*/
+body {
+	background-color: #1a1a1a;
+	color: #FF3333;
+	font-family: 'Questrial', sans-serif;
+	display: block;
+	align-content:center;
+	margin: 0px;
+	font-size: 18px;
+}
+
+
+/*-----------LOGIN----------------*/
+#login {
+	margin-top: 200px;
+}
+#login_header {
+	width: 482px;
+	height: 124px;
+	
+	margin: 0px auto;
+}
+#login_header img {
+ 	width: 100%;
+ 	height: 124px;
+}
+#loginForm {
+	background-color: #4d4d4d;
+	border: solid #FFFFFF 2px;
+	border-radius: 40px;
+	width: 600px;
+	height: 200px;
+  	color: #FFFFFF;
+  	margin: 0px auto;
+  	text-align: center;
+}
+
+#loginForm table {
+	text-align: center;
+	display: inline-block;
+	margin: auto; 
+}
+input[type=text][type=password], #loginInput {
+	border-bottom: #FFFFFF solid 1px;
+}
+
+/*-----------INPUT FIELDS----------------*/
+input[type=text], .input {
+	background-color: rgba(255,51,51, 0.0);;
+	color: #FFFFFF;
+	border: none;
+	border-bottom: 1px solid #FF3333;
+	font-family: 'Questrial', sans-serif;
+	padding: 5px;
+	width: 206px;
+}
+
+input[type=text]:focus {
+	border: 1px solid #FFFFFF;
+}
+/*-----------BUTTONS----------------*/
+.btn {	
+	opacity:0.65;
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.btn:hover {
+	opacity: 1.0;
+	cursor:pointer;
+}
+
+input#loginbtn {
+	margin: 0px 0px 100px 400px;
+	position: absolute;
+	display: flex;
+	background:url("/library/images/login_btn.png") no-repeat; 
+	border: 0px;
+	width: 82px;
+	height: 27px;	
+}
+/*-----------LIBRARY BUTTONS----------------*/
+.library_buttons {
+	text-align: center;
+	position: relative;
+  	top: 300px;
+  	/*transform: perspective(1px) translateY(-50%);*/
+}
+.libraryBtn {
+	width: 250px;
+	height: 250px; 
+	display: inline-block;
+	margin: auto;
+	padding: 30px;	
+}
+
+.libraryBtn img {
+	width: 100%;
+	height:  250px;
+	opacity: 0.4;
+}
