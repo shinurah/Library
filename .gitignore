@@ -1,0 +1,7 @@
+library/config.php
+.metadata
+.well-known
+*/.settings
+.project
+movie_library/movie_images/*
+vinyl_library/vinyl_images/*
